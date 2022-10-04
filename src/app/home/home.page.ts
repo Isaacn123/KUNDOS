@@ -20,6 +20,14 @@ export class HomePage {
       location: 'no',
       zoom: 'yes',
       hideurlbar: 'yes',
+      clearcache : 'yes',
+      clearsessioncache : 'yes',
+      // ios
+      closebuttoncaption : 'Close', //iOS only
+      // toolbar : 'no', //iOS only
+      // enableViewportScale : 'no', //iOS only
+      allowInlineMediaPlayback : 'no',//iOS only
+      presentationstyle : 'pagesheet',//iOS only
     };
     // this.spin.show();
     const browser = this.iap.create(url,'_blank', options);
