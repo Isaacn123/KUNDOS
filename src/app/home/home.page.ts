@@ -33,11 +33,6 @@ export class HomePage {
       //     this.spin.hide();
       //   });
 
-      //   browser.on('loadstop').subscribe(()=>{
-      //   this.spin.hide();
-      //   }, err =>{
-      //  this.spin.hide();});
-      // browser.show();
 
       // browser.close();
   }
